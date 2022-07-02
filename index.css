@@ -14,8 +14,11 @@ body{
     align-items: center;
 }
 div {
-    
+}
 
+.first {
+    float:left;
+    width: 50%;
 }
 h1{
     padding-top: 90px;
@@ -29,8 +32,15 @@ h2 {
 h3 {
     color: #2549D3;
 }
-.Bottom {
+.Clients {
+    float: left;
+    width: 33.33%;
+}
+.Footer-Bottom {
     background-color: #0F298B; 
+    display: flex;
+    flex-direction: column;
+
 }
  .two {
     
