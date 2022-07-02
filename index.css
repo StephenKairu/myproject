@@ -25,6 +25,12 @@ div {
 .two {
     float: left;
     width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.two-h {
+    font-weight: 700;
 }
 h1{
     padding-top: 90px;
