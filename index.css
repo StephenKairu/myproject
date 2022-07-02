@@ -15,7 +15,9 @@ body{
 }
 div {
 }
-
+* {
+    overflow: auto;
+}
 .first {
     float:left;
     width: 50%;
