@@ -3,6 +3,7 @@ body{
 }
 #navbar {
     position: fixed;
+    top: 0px;
     background-color:#FAFAFA;
     color: black;
     width: 100%;
@@ -13,6 +14,7 @@ div {
 
 }
 h1{
+    padding-top: 90px;
     font-style: Space Grotesk;
     color:#2549D3;
 }
