@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Space+Grotesk:wght@300;400&display=swap');
+<!-- linking css file with another css file for fonts -->
 body {
     background-color:#FAFAFA;
     font-family: 'Space Grotesk', sans-serif;
@@ -17,6 +18,16 @@ body {
 }
 #navbar a {
     text-decoration: none; 
+}
+.blue-button {
+    background-color: #0F298B;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
 }
 div {
 }
