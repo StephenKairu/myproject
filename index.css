@@ -89,10 +89,40 @@ p {
     float: left;
     width: 50%;
 }
+.four-main {
+    margin: 3% 3% 3% 3%;
+}
 .four {
+    border-radius: 1%;
+    color: #000;
+    margin: 1% 0% 1% 0%;
+    box-shadow: 2% 2% 2% 2% gray;
+    background-color:white;
     float: left;
     width: 33.33%;
-    
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    justify-content: space-between;
+    align-items: center;
+}
+.four1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+.four2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 10px;
+}
+.four h4{
+    font-size: small;
+}
+.h5blue {
+    color: #0F298B;
 }
 .-h {
     font-family: 'Space Grotesk', sans-serif;
@@ -150,8 +180,6 @@ h5 {
     width: 25%;
     margin-left: 8%;
 }
- .two {
- }
  .three {
  }
  #vallies {
