@@ -1,7 +1,7 @@
-
+@import url('https://fonts.googleapis.com/css2?family=Oleo+Script:wght@400;700&family=Space+Grotesk:wght@300;400&display=swap');
 body {
     background-color:#FAFAFA;
-    font-family: Space Grotesk;
+    font-family: 'Space Grotesk', sans-serif;
 }
 #navbar {
     position: fixed;
@@ -15,6 +15,9 @@ body {
     justify-content: space-around;
     align-items: center;
 }
+#navbar a {
+    text-decoration: none; 
+}
 div {
 }
 * {
@@ -23,7 +26,10 @@ div {
 .first {
     float:left;
     width: 50%;
-    font-family: Oleo, script;
+    font-family: 'Space Grotesk', sans-serif;
+}
+p {
+    font-family: 'Space Grotesk', sans-serif;
 }
 .two {
     float: left;
@@ -51,7 +57,7 @@ div {
 }
 h1 {
     padding-top: 90px;
-    font-family: Space, Grotesk;
+    font-family: 'Space Grotesk', sans-serif;
     color:#2549D3;
 }
 h2 {
@@ -72,8 +78,12 @@ h3 {
 
 }
  .two {
-    
  }
  .three {
-    ;
+ }
+ .vallies {
+    font-family: 'Oleo Script', cursive;
+ }
+ .bottom {
+    font-family: “Helvetica Neue”,Helvetica,Arial,sans-serif;
  }
