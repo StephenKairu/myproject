@@ -32,6 +32,10 @@ div {
 .two-h {
     font-weight: 700;
 }
+.three {
+    float: left;
+    width: 50%;
+}
 .four {
     float: left;
     width: 33.33%;
