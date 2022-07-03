@@ -39,6 +39,23 @@ div {
     width: 50%;
     font-family: 'Space Grotesk', sans-serif;
 }
+.search{
+    border-radius: 5px;
+    color: #0F298B;
+    font-size: larger;
+    box-shadow:3px 3px 2px 2px gray;
+    margin: 13% 12% 13% 12%;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    background-color:#FAFAFA;
+    padding: 2em;
+}
+.label {
+    font-weight: 300;
+    font-size: smaller;
+}
 p {
     font-family: 'Space Grotesk', sans-serif;
 }
