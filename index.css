@@ -170,6 +170,9 @@ h5 {
     font-size: small;
     font-weight: 100;
 }
+#bb {
+    margin-left: 80%;
+}
 .Footer-Bottom {
     background-color: #0F298B;
     display: flex;
