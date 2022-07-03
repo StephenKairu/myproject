@@ -96,14 +96,16 @@ p {
 }
 .-h {
     font-family: 'Space Grotesk', sans-serif;
+    font-size: larger;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 h1 {
-    padding-top: 90px;
     font-family: 'Space Grotesk', sans-serif;
     color:#2549D3;
+    font-size: 300%;
 }
 h2 {
     color: #2549D3;
@@ -112,17 +114,41 @@ h2 {
 h3 {
     color: #2549D3;
 }
+h4 {
+    font-weight: 600;
+    font-size: large;
+}
+h5 {
+    font-weight: 300;
+    font-size: x-small;
+}
+.clients-main {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
 .Clients {
+    border-radius: 1%;
+    color: #000;
+    margin: 1% 1% 1% 1%;
+    box-shadow: 2% 2% 2% 2% gray;
+    background-color:white;
     float: left;
     width: 33.33%;
+}
+.Clients p{
+    font-size: small;
+    font-weight: 100;
 }
 .Footer-Bottom {
     background-color: #0F298B;
     display: flex;
     flex-direction: column;
+    justify-content:center;
+    justify-content: space-evenly;
     float: left;
     width: 25%;
-
+    margin-left: 8%;
 }
  .two {
  }
@@ -130,7 +156,12 @@ h3 {
  }
  #vallies {
     font-family: 'Oleo Script', cursive;
+    font-size: larger;
  }
  .bottom {
     font-family: 'Space Grotesk', sans-serif;
+    font-size: medium;
+ }
+ .Footer-Bottom li{
+    font-family: “Helvetica Neue”,Helvetica,Arial,sans-serif;
  }
