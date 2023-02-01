@@ -10,7 +10,7 @@ body {
     background-color:#FAFAFA;
     color: black;
     width: 100%;
-    height: 9%;
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -18,6 +18,9 @@ body {
 }
 #navbar a {
     text-decoration: none; 
+}
+button{
+    border: none;
 }
 .blue-button {
     background-color: #0F298B;
@@ -29,8 +32,7 @@ body {
   display: inline-block;
   font-size: 16px;
 }
-div {
-}
+
 * {
     overflow: auto;
 }
@@ -62,10 +64,21 @@ div {
     margin: 0% 8% 13% 8%;
     padding: 50px;
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     justify-content: space-between;
     background-color:#FAFAFA;
     padding: 2em;
+}
+
+.search{
+    align-items: center;
+}
+
+form{
+    width: 100%;
+    margin-left: 9%;
+    /* position: fixed; */
+    /* justify-content: space-around; */
 }
 .label {
     font-weight: 300;
@@ -196,3 +209,121 @@ h5 {
  .Footer-Bottom li{
     font-family: “Helvetica Neue”,Helvetica,Arial,sans-serif;
  }
+
+
+ @media screen and (max-width: 600px) {
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+    .section{
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    #navbar {
+        display: flex;
+        flex-wrap: wrap;
+        height: auto;
+    }
+    #navbar a{
+        width: auto;
+    }
+    /* button {
+        width: 15%;
+        height: auto;
+    } */
+
+    .sec1 {
+        margin-bottom: 1%;
+        width: 95%;
+    }
+    .sec1 img {
+        margin-top: 15%;
+    }
+    .first {
+        width: 50%;
+        overflow: hidden;
+    }
+
+    #form {
+        margin-top: 8%;
+        width: 100%;
+        align-items: center;
+        overflow: hidden;
+    }
+    .search{
+        margin-top:4%;
+        width: 70%;
+        /* box-shadow:3px 4px 6px 4px gray; */
+        box-shadow: -1px 1px 44px -14px rgba(0,0,0,0.75);
+    }
+    form {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1%;
+        width: 80%;
+        align-items: center;
+        justify-items: space-between;
+    }
+    .label{
+        margin-top: 5%;
+        margin-bottom: 2%;
+    }
+    form button{
+        margin-top: 8%;
+    }
+    .bottom{
+        width: auto;
+        overflow: hidden;
+    }
+
+    #why {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        justify-items: space-between;
+    }
+    #why img{
+        margin-top: 6%;
+        margin-right: 5%;
+    }
+    #why .three{
+        margin-right:1%;
+    }
+
+    #products {
+        display: flex;
+        flex-direction: column;
+        margin-top: 1%;
+        width: 100%;
+        align-items: center;
+    }
+    .two {
+        width: 70%;
+        margin-right: 2%;
+        margin-left: 2%;
+        overflow: hidden;
+    }
+    #clients{
+        display: grid;
+        align-items: center;
+    }
+    #bb{
+        margin-left: 35%;
+        background-color: #0F298B;
+        width: 40%;
+        border: none;
+    }
+    .Footer-Bottom {
+    margin-right: 2%;
+    margin-left: 2%;
+      display: flex;
+      flex-direction: column;
+      margin-top: 1%;
+      width: 100%;
+    }
+    .contact-image{
+        width: 97%;
+    }
+  }
