@@ -252,26 +252,29 @@ h5 {
     }
 
     #form {
+        display: grid;
+        place-items: center;
         margin-top: 8%;
         width: 100%;
-        align-items: center;
+        /* align-items: center; */
         overflow: hidden;
     }
     .search{
-        margin-left: 1%;
+        /* margin-left: 1%; */
         display: grid;
         place-items: center;
         margin-top:4%;
-        width: 70%;
+        width: 60%;
         /* box-shadow:3px 4px 6px 4px gray; */
         box-shadow: -1px 1px 44px -14px rgba(0,0,0,0.75);
     }
     form {
-        display: flex;
-        flex-direction: column;
+        display: grid;
+        place-items: center;
+        /* flex-direction: column; */
         margin-top: 1%;
         width: 100%;
-        align-items: center;
+        /* align-items: center; */
         justify-items: space-between;
     }
     .label{
