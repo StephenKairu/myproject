@@ -7,7 +7,7 @@ body {
 #navbar {
     position: fixed;
     top: 0px;
-    background-color:#FAFAFA;
+    background-color:rgb(240, 238, 238);
     color: black;
     width: 100%;
     height: auto;
@@ -215,6 +215,7 @@ h5 {
     body {
         display: flex;
         flex-direction: column;
+        align-items: center;
     }
     .section{
         margin-left: 2%;
@@ -227,6 +228,7 @@ h5 {
         height: auto;
     }
     #navbar a{
+        margin-left: 3%;
         width: auto;
     }
     /* button {
@@ -237,13 +239,16 @@ h5 {
     .sec1 {
         margin-bottom: 1%;
         width: 95%;
+        display: grid;
+        place-items: center;
     }
     .sec1 img {
         margin-top: 15%;
     }
     .first {
-        width: 50%;
+        width: 100%;
         overflow: hidden;
+
     }
 
     #form {
@@ -253,6 +258,9 @@ h5 {
         overflow: hidden;
     }
     .search{
+        margin-left: 1%;
+        display: grid;
+        place-items: center;
         margin-top:4%;
         width: 70%;
         /* box-shadow:3px 4px 6px 4px gray; */
@@ -262,11 +270,12 @@ h5 {
         display: flex;
         flex-direction: column;
         margin-top: 1%;
-        width: 80%;
+        width: 100%;
         align-items: center;
         justify-items: space-between;
     }
     .label{
+        width: 100%;
         margin-top: 5%;
         margin-bottom: 2%;
     }
@@ -281,8 +290,9 @@ h5 {
     #why {
         width: 100%;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-items: space-between;
+        align-items: center;
     }
     #why img{
         margin-top: 6%;
@@ -305,6 +315,13 @@ h5 {
         margin-left: 2%;
         overflow: hidden;
     }
+    .four-main{
+        display: grid;
+        place-items: center;
+    }
+    .four{
+        width: 100%;
+    }
     #clients{
         display: grid;
         align-items: center;
@@ -312,8 +329,11 @@ h5 {
     #bb{
         margin-left: 35%;
         background-color: #0F298B;
-        width: 40%;
+        width: 50%;
         border: none;
+    }
+    .section-footer{
+        display: grid;
     }
     .Footer-Bottom {
     margin-right: 2%;
