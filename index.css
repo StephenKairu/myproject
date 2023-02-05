@@ -90,10 +90,17 @@ p {
 .two {
     float: left;
     width: 33.33%;
+    /* display: grid;
+    place-items: center; */
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
 }
+/* .two img{
+    width: 33%;
+    height: 33%;
+} */
 .two-h {
     font-family: 'Space Grotesk', sans-serif;
     font-weight: 700;
